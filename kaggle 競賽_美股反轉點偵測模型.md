@@ -1,7 +1,5 @@
-經由 GEMIMI 輔助文章撰寫
+
 ---
-
-
 ## Detecting Reversal Points in US Equities
 {%preview https://www.kaggle.com/competitions/detecting-reversal-points-in-us-equities/overview %}
 
