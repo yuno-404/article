@@ -729,7 +729,13 @@ $$\frac{dS}{S} = \mu dt + \sigma dZ$$
 	* 這解釋了為什麼下注太大 ($f$ 太大)，波動率拖累會吃掉所有的獲利
 
 ### 求解最佳 $f$
-我們要找到一個 $f$，讓增長率 $G(f)$ 最大
-Step 1: 對 $f$ 微分$$\frac{dG}{df} = \frac{d}{df} \left( f\mu - \frac{1}{2} f^2 \sigma^2 \right)$$$$\frac{dG}{df} = \mu - f\sigma^2$$Step 2: 令導數為 0$$\mu - f\sigma^2 = 0$$Step 3: 移項解出 $f$$$f\sigma^2 = \mu$$$$f^* = \frac{\mu}{\sigma^2}$$這就是著名的 莫頓比例 (Merton Fraction)！
+我們要找到一個 $f$，讓增長率 $G(f)$ 最大  
+Step 1: 對 $f$ 微分  
+$$\frac{dG}{df} = \frac{d}{df} \left( f\mu - \frac{1}{2} f^2 \sigma^2 \right)$$  
+$$\frac{dG}{df} = \mu - f\sigma^2$$  
+Step 2: 令導數為 0$$\mu - f\sigma^2 = 0$$  
+Step 3: 移項解出 $f$$$f\sigma^2 = \mu$$  
+$$f^* = \frac{\mu}{\sigma^2}$$  
+這就是著名的 莫頓比例 (Merton Fraction)！
 (註：如果有無風險利率 $r$，公式會變成 $f^ = \frac{\mu - r}{\sigma^2}$，分子變成超額報酬)
 
